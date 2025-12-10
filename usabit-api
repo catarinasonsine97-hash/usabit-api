@@ -1,0 +1,22 @@
+usabit-api/
+  package.json
+  Dockerfile
+  docker-compose.yml
+  jest.config.js
+  .env.example
+  src/
+    server.js
+    app.js
+    db.js
+    middleware/
+      authMiddleware.js
+    controllers/
+      authController.js
+      taskController.js
+    routes/
+      authRoutes.js
+      taskRoutes.js
+  sql/
+    init.sql
+  tests/
+    health.test.js
