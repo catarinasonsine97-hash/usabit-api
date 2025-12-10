@@ -1,0 +1,34 @@
+{
+  "name": "usabit-api",
+  "version": "1.0.0",
+  "description": "API REST em Node.js com autenticação JWT e CRUD de tarefas.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "jwt",
+    "postgresql",
+    "fullstack"
+  ],
+  "author": "Catarina Sonsine",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
